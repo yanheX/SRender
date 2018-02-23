@@ -1,0 +1,3 @@
+class perspectiveCamera extends Camera{
+    
+}
