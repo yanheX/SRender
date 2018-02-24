@@ -1,5 +1,7 @@
+import kit from '../app/kit';
+import Node from '../core/Node3d';
 
-class orthCamera{
+class orthCamera extends Node{
     /**
      * 
      * @param {*} left 
@@ -14,3 +16,5 @@ class orthCamera{
         
     }
 }
+
+export default orthCamera;

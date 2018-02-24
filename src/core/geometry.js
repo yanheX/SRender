@@ -19,11 +19,6 @@
 		this.indexes = [];
 		this.faces = [];
 		this.normals = [];
-		this.globalMat = new mat4();
-		this.transformMat = new mat4();
-		this.scale = new vec3(1,1,1);
-		this.translate = new vec3(0,0,0);
-		this.rotate = new vec3(0,0,0);
 		this.name;
 		this._code = kit.genRandomCode(4,5,'-');
 		this.type = 'geometry';
